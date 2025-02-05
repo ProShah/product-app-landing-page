@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-image {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .btn {
+            padding: 12px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .feature-box {
+            width: 30%;
+            background: #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SmartWatch Pro</h1>
+        <p>The Future of Smart Wearable Technology</p>
+    </header>
+
+    <section class="container">
+        <img src="https://via.placeholder.com/400" alt="Smartwatch" class="product-image">
+        <h2>Experience the Next-Gen Smartwatch</h2>
+        <p>Stay connected, track your health, and elevate your style with the latest smartwatch technology.</p>
+        <a href="#" class="btn" onclick="buyNow()">Buy Now - $199</a>
+    </section>
+
+    <section class="container">
+        <h2>Features</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Heart Rate Monitor</h3>
+                <p>Track your heart rate 24/7 for a healthy lifestyle.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Waterproof Design</h3>
+                <p>Perfect for workouts, swimming, and outdoor adventures.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Long Battery Life</h3>
+                <p>Up to 7 days of battery life with fast charging.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 SmartWatch Pro | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function buyNow() {
+            alert("Thank you for your interest! Redirecting to checkout...");
+        }
+    </script>
+
+</body>
+</html>
